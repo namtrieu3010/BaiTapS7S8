@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap');
+.container{
+    border: solid 3px #931520;
+    width: 800px;
+    box-shadow: 5px 10px 8px #888888;
+     margin-left: 400px;  
+}
+
+header {
+    background-image: repeating-linear-gradient(40deg, #F5BB72, #F5BB72, white,#F5BB72, #F5BB72); 
+    height: 120px;
+    border-bottom: solid 3px #931520;
+}
+header img{
+    float: left;
+    height: 100px;
+    width: 80px; 
+    padding:25px 0px 0px 25px;
+    
+}
+.header {
+    padding-top: 10px;
+    margin-left: 155px;
+}
+.header h1{
+    color:#7D0104;
+    font-family: Be Vietnam Pro;
+}
+.header h3{ 
+    font-style: italic;
+    margin-top: -20px;
+}
+.header h3 a{
+    text-shadow: 2px 2px 4px #701a22;
+}
+.nav_menu{
+  height: 40px;
+  width: 800px;
+  display: flex;
+  justify-content: space-around;
+}
+.menu_list{
+  height: 40px;
+  width: 200px;
+  background-color: #931520;
+  margin-top: -2px;
+
+}
+.menu_list a{
+  position: relative;
+  left: 80px;
+  top: 10px;
+  color:#FFFDEE;
+}
+.content{
+    width: 780px;
+    height: 790px;
+    background-color: #FFFDEE;
+    margin-left: 5px;
+    font-family: Be Vietnam Pro;
+}
+.guest-list{
+    width: 220px;
+    height: 580px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    float: left;
+    margin-left: 10px;
+}
+.content .guest-list h2{
+    width: 220px;
+    height: 30px;
+    color: #931520;
+    margin-bottom: -13px;
+    margin-top: 1px;
+}
+.content .guest-list .guest{
+    width: 220px;
+}.content .guest-list .guest h3{
+    margin-top: -5px;
+    margin-bottom: 5px;
+}
+.info{
+    width: 540px;
+    float: right;
+}
+.mission{
+    border-bottom: 3px solid #931520;
+}
+.mission h2:first-child{
+    color: #931520;
+    margin-bottom: -7px;
+    margin-top: 10px;
+}
+.mission p{
+    font-size: 15px;
+}
+.mission .mission1{
+    width: 430px;
+    font-size: 15px;
+    position: relative;
+    left: 50px;
+    margin-top: -5px;
+}
+.mission h2{
+    margin-bottom: 5px;
+}
+.fossil{
+    border-bottom: 3px solid #931520;
+    position: relative;
+}
+.fossil h2{
+    color: #931520;
+    margin-top: 10px;
+}
+.fossil h3{
+    margin-top: -15px;
+}
+.fossil h3:last-child{
+    margin-top: -8px;
+}
+.fossil img{
+    position: absolute;
+    right: 1px;
+    top: 50px;
+}
+.fossil p{
+    width: 250px;
+    margin-top: -15px ;
+    font-size: 15px;
+}
+.ticket{
+
+}
+.ticket h2{
+    color: #931520;
+    margin-top: 10px;
+}
+.ticket ul{
+    margin-top: -15px;
+    margin-left: -20px;
+    font-size: 15px;
+}
+footer{
+    height: 50px;
+    padding-top: 2px ;
+    padding-left: 230px;
+    color: aliceblue;
+    background-color: #7D0104;
+}
+@media only screen and (min-width:800px){
+
+}
+/* ------------------WIDTH <800px--------------- */
+@media only screen and (max-width: 480px){
+  .nav_menu{
+    display: none;
+  }
+}
